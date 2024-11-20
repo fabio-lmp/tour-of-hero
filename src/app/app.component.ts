@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HeroesComponent } from "./heroes/heroes.component";
 
@@ -7,7 +6,6 @@ import { HeroesComponent } from "./heroes/heroes.component";
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterOutlet, 
     HeroesComponent,
     FormsModule
   ],
